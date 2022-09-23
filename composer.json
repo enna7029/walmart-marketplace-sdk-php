@@ -1,0 +1,22 @@
+{
+    "name": "dogfoodingcn/walmart-marketplace-sdk-php",
+    "description": "Walmart Marketplace API PHP SDK",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Allen Zhang",
+            "email": "allen@ulike.info"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Walmart\\": "src/"
+        }
+    }
+}
