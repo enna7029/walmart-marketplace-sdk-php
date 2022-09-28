@@ -5,7 +5,7 @@ Walmart Marketplace API PHP SDK
 
 #### 批量feed Item
 
-	1. 发送feed item
+ 1. 发送feed item
 
     1. ```php
        use Walmart\Facades\Items;
@@ -42,36 +42,38 @@ Walmart Marketplace API PHP SDK
        $feed_id为返回的feed id信息,可以根据此信息去查询feed状态
        ```
 
-	2. 检查feed状态
+2. 检查feed状态
 
-    	1. ```php
-        use Walmart\Facades\Feed;
-        ```
+   1. ```PHP
+      use Walmart\Facades\Feed;
+      ```
 
-    	2. ```php
-        $config = Config::Init(app name, app id, app secret);
-        ```
+   2. ```PHP
+      $config = Config::Init(app name, app id, app secret);
+      ```
 
-    	3. ```php
-        $feedRes = Feed::getStatusWithDetail($config, $feed_id);
-        ```
+   3. ```PHP
+      $feedRes = Feed::getStatusWithDetail($config, $feed_id);
+      ```
 
-	3. 检查item状态
+3. 检查item状态
 
-    	1. ```php
-        use Walmart\Facades\Items;
-        ```
+   1. ```PHP
+      use Walmart\Facades\Items;
+      ```
 
-    	2. ```php
-        $config = Config::Init(app name, app id, app secret);
-        ```
+   2. ```PHP
+      $config = Config::Init(app name, app id, app secret);
+      ```
 
-    	3. ```php
-        $sku='店铺信息';
-        Items::GetAnItem($config, $sku);
-        ```
+   3. ```PHP
+      $sku='店铺信息';
+      Items::GetAnItem($config, $sku);
+      ```
 
-	4. 修改价格/库存/Item信息
+ 4. 修改价格/库存/Item信息
+
+    
 
 #### 库存
 
