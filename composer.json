@@ -2,11 +2,10 @@
     "name": "enna7029/walmart-marketplace-sdk-php",
     "description": "Walmart Marketplace API PHP SDK",
     "type": "library",
-    "license": "GPL-3.0-or-later",
     "authors": [
         {
-            "name": "Allen Zhang",
-            "email": "allen@ulike.info"
+            "name": "enna",
+            "email": "w1069103107@outlook.com"
         }
     ],
     "require": {
